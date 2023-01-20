@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/corpix/uarand"
-	"github.com/projectdiscovery/ratelimit"
+	"github.com/hlnths/ratelimit"
 
 	"github.com/projectdiscovery/gologger"
 )
