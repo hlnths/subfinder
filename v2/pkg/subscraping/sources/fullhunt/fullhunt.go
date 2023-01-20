@@ -6,10 +6,10 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 )
 
-//fullhunt response
+// fullhunt response
 type fullHuntResponse struct {
 	Hosts   []string `json:"hosts"`
 	Message string   `json:"message"`

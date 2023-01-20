@@ -7,9 +7,9 @@
 
 
 <p align="center">
-<a href="https://goreportcard.com/report/github.com/projectdiscovery/subfinder/v2"><img src="https://goreportcard.com/badge/github.com/projectdiscovery/subfinder"></a>
-<a href="https://github.com/projectdiscovery/subfinder/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/projectdiscovery/subfinder/releases"><img src="https://img.shields.io/github/release/projectdiscovery/subfinder"></a>
+<a href="https://goreportcard.com/report/github.com/hlnths/subfinder/v2"><img src="https://goreportcard.com/badge/github.com/hlnths/subfinder"></a>
+<a href="https://github.com/hlnths/subfinder/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/hlnths/subfinder/releases"><img src="https://img.shields.io/github/release/projectdiscovery/subfinder"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
@@ -109,7 +109,7 @@ OPTIMIZATION:
 `subfinder` requires **go1.18** to install successfully. Run the following command to install the latest version:
 
 ```sh
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/hlnths/subfinder/v2/cmd/subfinder@latest
 ```
 
 ## Post Installation Instructions
@@ -248,8 +248,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/resolve"
-	"github.com/projectdiscovery/subfinder/v2/pkg/runner"
+	"github.com/hlnths/subfinder/v2/pkg/resolve"
+	"github.com/hlnths/subfinder/v2/pkg/runner"
 )
 
 func main() {
@@ -289,6 +289,6 @@ func main() {
 # License
 
 `subfinder` is made with 🖤 by the [projectdiscovery](https://projectdiscovery.io) team. Community contributions have made the project what it is. See
-the **[THANKS.md](https://github.com/projectdiscovery/subfinder/blob/master/THANKS.md)** file for more details.
+the **[THANKS.md](https://github.com/hlnths/subfinder/blob/master/THANKS.md)** file for more details.
 
-Read the usage disclaimer at [DISCLAIMER.md](https://github.com/projectdiscovery/subfinder/blob/master/DISCLAIMER.md) and [contact us](mailto:contact@projectdiscovery.io) for any API removal.
+Read the usage disclaimer at [DISCLAIMER.md](https://github.com/hlnths/subfinder/blob/master/DISCLAIMER.md) and [contact us](mailto:contact@projectdiscovery.io) for any API removal.

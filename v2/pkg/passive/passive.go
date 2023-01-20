@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
 )
 
 // EnumerateSubdomains enumerates all the subdomains for a given domain

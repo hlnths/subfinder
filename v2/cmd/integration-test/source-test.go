@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/testutils"
+	"github.com/hlnths/subfinder/v2/pkg/testutils"
 )
 
 type dnsrepoTestcases struct{}

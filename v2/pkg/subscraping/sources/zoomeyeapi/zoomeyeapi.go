@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 )
 
 // search results

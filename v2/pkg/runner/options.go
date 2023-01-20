@@ -14,11 +14,11 @@ import (
 
 	"gopkg.in/yaml.v3"
 
+	"github.com/hlnths/subfinder/v2/pkg/passive"
+	"github.com/hlnths/subfinder/v2/pkg/resolve"
 	"github.com/projectdiscovery/fileutil"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/subfinder/v2/pkg/passive"
-	"github.com/projectdiscovery/subfinder/v2/pkg/resolve"
 )
 
 var (

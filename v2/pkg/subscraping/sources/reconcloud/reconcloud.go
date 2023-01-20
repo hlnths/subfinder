@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
 )
 
 type reconCloudResponse struct {

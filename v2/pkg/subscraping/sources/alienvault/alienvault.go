@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 )
 
 type alienvaultResponse struct {

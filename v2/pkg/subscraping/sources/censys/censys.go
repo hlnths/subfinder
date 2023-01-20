@@ -8,7 +8,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 )
 
 const maxCensysPages = 10

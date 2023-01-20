@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
 )
 
 type hunterResp struct {

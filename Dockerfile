@@ -2,7 +2,7 @@
 
 FROM golang:1.19.2-alpine AS build-env
 RUN apk add build-base
-RUN go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+RUN go install -v github.com/hlnths/subfinder/v2/cmd/subfinder@latest
 
 # Release
 FROM alpine:3.16.3

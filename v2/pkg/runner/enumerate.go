@@ -8,9 +8,9 @@ import (
 
 	"github.com/hako/durafmt"
 
+	"github.com/hlnths/subfinder/v2/pkg/resolve"
+	"github.com/hlnths/subfinder/v2/pkg/subscraping"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/subfinder/v2/pkg/resolve"
-	"github.com/projectdiscovery/subfinder/v2/pkg/subscraping"
 )
 
 const maxNumCount = 2
