@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/projectdiscovery/ratelimit"
+	"github.com/hlnths/ratelimit"
 )
 
 // BasicAuth request's Authorization header
